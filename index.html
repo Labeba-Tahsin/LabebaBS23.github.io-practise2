@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto|Sriracha|Teko&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-5 mt-5">
+                <h4>1.2 Hero Converter</h4>
+                <div class="hero-converter">
+                    <label for="">Convert: </label>
+                    <input type="text" class="form-control w-auto d-inline ml-2" id="weight">
+                    <select id="scale" class="form-control w-auto d-inline ml-3">
+                        <option value="lb" selected>lb to kg</option>
+                        <option value="kg">kg to lb</option>
+                    </select>
+                    <button class="form-control w-auto d-inline ml-2" onclick="weightConvert()">Go</button>
+                    <p class="d-inline ml-2" id="result">Result</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="quote-container">
+        <div class="quote-box">
+            <div class="d-inline-block quote-text">
+                <p class="red p-3" id="quote">hgjgkhjgjg</p>
+            </div>
+
+            <div class="color-pan d-inline-block">
+                <div class="row1">
+                    <span class="red" onclick="colorchange('red')"></span>
+                    <span class="green" onclick="colorchange('green')"></span>
+                </div>
+                <div class="row2">
+                    <span class="blue" onclick="colorchange('blue')"></span>
+                    <span class="yellow" onclick="colorchange('yellow')"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">This is assignment2</footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
